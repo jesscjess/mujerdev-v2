@@ -1,5 +1,5 @@
 <template>
-  <div class="c-panel row">
+  <div class="c-panel row no-margin">
     <div class="col-lg-8 col-md-12 c-welcome--image no-padding h-full-screen-height">
       <!-- <img src="@/assets/welcome.png"> -->
     </div>

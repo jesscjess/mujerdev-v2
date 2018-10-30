@@ -48,6 +48,10 @@ export default {
   padding: 0 !important;
 }
 
+.no-margin{
+  margin: 0 !important;
+}
+
 @include respond-below(md) {
 
   .h-full-screen-height{
