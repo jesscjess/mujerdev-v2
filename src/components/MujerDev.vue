@@ -1,6 +1,8 @@
 <template>
-  <div class="c-panel">
-    <a target="_blank" href="https://www.instagram.com/mujerdev/" >@mujerdev</a>
+  <div class="c-panel h-full-screen-height">
+    <div class="col-sm-12">
+      <a target="_blank" href="https://www.instagram.com/mujerdev/" >@mujerdev</a>
+    </div>
   </div>
 </template>
 
@@ -23,9 +25,13 @@ export default {
     justify-content: center;
     a{  
       color: $light-text;
-      font-size: 15em;
+      font-size: 15vw;
       text-shadow: 9px 7px #000000;
       font-family: 'Pacifico', cursive;
+
+      @include respond-below(sm) {
+        text-shadow: 3px 4px #000000;
+      }
       &:hover{
         color: $coral;
         text-decoration: none;
